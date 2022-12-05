@@ -1,0 +1,53 @@
+#include<stdio.h>
+int main()
+{
+int marks,GP;
+char grade;
+printf("Enter a marks: ");
+scanf("%d",&marks);
+switch(marks)
+{
+  case 1:
+  marks=86;
+  printf("For entered marks Grade is A and GP is 4.00");
+  break;
+  case 2:
+  marks=82;
+  printf("For entered marks Grade is A- and GP is 3.67");
+  break;
+  case 3:
+  marks=78;
+  printf("For entered marks Grade is B+ and GP is 3.33");
+  break;
+  case 4:
+  marks=74;
+  printf("For entered marks Grade is B and GP is 3.00");
+  break;
+  case 5:
+  marks=70;
+  printf("For entered marks Grade is B- and GP is 2.67");
+  break;
+  case 6:
+  marks=66;
+  printf("For entered marks Grade is C+ and GP is 2.33");
+  break;
+  case 7 :
+  marks=62;
+  printf("For entered marks Grade is C and GP is 2.00");
+  break;
+  case 8:
+  marks=58;
+  printf("For entered marks Grade is C- and GP is 1.67");
+  break;
+  case 9:
+  marks=54;
+  printf("For entered marks Grade is D+ and GP is 1.33");
+  break;
+  case 10:
+  marks=50;
+  printf("For entered marks Grade is D and GP is 1.00");
+  break;
+  
+}
+return 0;
+}
