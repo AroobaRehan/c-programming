@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+float velocity,time,distance,acceleration;
+printf("Enter velocity: ");
+scanf("%f",&velocity);
+printf("Enter distance: ");
+scanf("%f",&distance);
+time= (distance*2)/velocity;
+acceleration= time/velocity;
+printf("\n acceleration of jet %f",acceleration);
+printf("\n Time to takeoff speed is %f",time);
+
+
+return 0;
+}
